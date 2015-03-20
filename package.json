@@ -1,8 +1,8 @@
 {
-  "name": "x-ray-request",
+  "name": "x-ray-crawler",
   "version": "1.0.0",
-  "description": "x-ray's request engine",
-  "main": "index.js",
+  "description": "x-ray's crawler",
+  "main": "lib/index.js",
   "dependencies": {
     "JSONSelect": "^0.4.0",
     "batch": "^0.5.2",
@@ -22,6 +22,7 @@
     "sliced": "0.0.5",
     "superagent": "^1.1.0",
     "wrap-fn": "^0.1.4",
+    "x-ray-parse": "^1.0.0",
     "yieldly": "0.0.1"
   },
   "devDependencies": {},
@@ -30,6 +31,7 @@
   },
   "keywords": [
     "x-ray",
+    "crawler",
     "request",
     "scrape",
     "scraper"
