@@ -1,6 +1,6 @@
-# X-ray Crawler
+# x-ray Crawler
 
-Friendly web crawler for `x-ray`.
+Friendly web crawler for [x-ray](http://github.com/lapwinglabs/x-ray).
 
 ## Features
 
@@ -39,11 +39,11 @@ npm install x-ray-crawler
 
 ## API
 
-Coming Soon
+Coming Soon.
 
 ## Test
 
-Coming Soon
+Coming Soon.
 
 ## License
 
