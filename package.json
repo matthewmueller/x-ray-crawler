@@ -9,7 +9,7 @@
     "delegates": "^0.1.0",
     "emitter-component": "^1.1.1",
     "enqueue": "^1.0.2",
-    "http-context": "^1.0.0",
+    "http-context": "^1.1.0",
     "ms": "^0.7.0",
     "selectn": "^0.9.6",
     "sliced": "0.0.5",
