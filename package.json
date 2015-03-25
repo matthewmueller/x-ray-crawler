@@ -1,6 +1,6 @@
 {
   "name": "x-ray-crawler",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "x-ray's crawler",
   "main": "lib/index.js",
   "dependencies": {
