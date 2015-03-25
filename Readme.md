@@ -4,7 +4,6 @@ Friendly web crawler for [x-ray](http://github.com/lapwinglabs/x-ray).
 
 ## Features
 
-- Flexible pagination
 - Extensible drivers
 - Request and response hooks
 - Rate limiting
@@ -16,19 +15,21 @@ Friendly web crawler for [x-ray](http://github.com/lapwinglabs/x-ray).
 ## Example
 
 ```js
-crawler('http://google.com')
+function http(ctx, fn) {
+  superagent.get(ctx.url, fn)
+}
+
+var crawl = Crawler(http)
   .throttle(3, '1s')
   .delay('1s', '10s')
   .concurrency(2)
-  .paginate('a @ href')
   .limit(20)
-  .on('response', function($, ctx) {
-    console.log('title: %s', $('title').text().trim());
-  })
-  .crawl(function(err, res) {
-    if (err) throw err;
-    console.log('done!');
-  });
+
+crawl('http://lapwinglabs.com', function(err, ctx) {
+  if (err) throw err
+  console.log('status code: %s', ctx.status)
+  console.log('status body: %s', ctx.body)
+})
 ```
 
 ## Installation
