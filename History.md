@@ -1,4 +1,10 @@
 
+2.0.1 / 2015-04-17
+==================
+
+  * added: crawler#driver(fn)
+  * better setter variable for the timeout and allow the driver to be set
+
 2.0.0 / 2015-03-25
 ==================
 
