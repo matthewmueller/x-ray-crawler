@@ -1,3 +1,7 @@
+2.0.2 / 2015-07-17
+==================
+
+  - updated response handler to treat 4xx and 5xx status codes as acceptable
 
 2.0.1 / 2015-04-17
 ==================
