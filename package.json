@@ -19,10 +19,11 @@
     "yieldly": "0.0.1"
   },
   "devDependencies": {
-    "mocha": "^2.2.1"
+    "jest": "^20.0.4"
   },
   "scripts": {
-    "test": "make"
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
   },
   "keywords": [
     "x-ray",

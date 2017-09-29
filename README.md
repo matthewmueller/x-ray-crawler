@@ -44,7 +44,11 @@ Coming Soon.
 
 ## Test
 
-Coming Soon.
+> **Note:** Work in progress
+
+```js
+npm test
+```
 
 ## License
 
