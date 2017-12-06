@@ -1,3 +1,9 @@
+2.0.3 / 2017-12-06
+==================
+
+  - added: automated tests with Travis configuration
+  - updated vulnerable dependencies
+
 2.0.2 / 2015-07-17
 ==================
 
