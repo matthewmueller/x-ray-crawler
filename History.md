@@ -1,3 +1,9 @@
+2.0.4 / 2019-02-22
+==================
+
+  - bump: `cheerio` package from *0.19.0* to *0.22.0*
+  - added: missing repository links in `package.json`
+
 2.0.3 / 2017-12-06
 ==================
 
