@@ -1,3 +1,8 @@
+2.0.5 / 2020-03-11
+==================
+
+  - removed duplicated function (crawler#driver(fn))
+
 2.0.4 / 2019-02-22
 ==================
 
